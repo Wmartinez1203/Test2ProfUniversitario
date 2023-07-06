@@ -1,0 +1,31 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:9062/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:9062/hello/User
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:9062/inference
+Accept: application/json
+Content-Type: application/json
+
+{
+  "item": "algoritmos"
+}
+
+###
+
+POST http://127.0.0.1:9062/inference
+Accept: application/json
+Content-Type: application/json
+
+{
+  "item": "programacion orientada a objetosw"
+}
+
+
